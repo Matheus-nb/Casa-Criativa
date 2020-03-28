@@ -1,6 +1,9 @@
 {% for idea in ideas %}
     <div class="idea">
-        <button id="delete" onclick="deleta()">X</button>
+        
+         <a href="/ideias/{{idea.id}}" type="button">X</a>
+       
+        
         <img src="{{idea.image}}" alt="Imagem de {{idea.title}}">
                         
             <div class="content">

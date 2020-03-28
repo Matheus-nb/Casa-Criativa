@@ -81,10 +81,10 @@ server.post("/", function(req,res){
     })
 })
 
-server.delete("/:id", function(req,res) {
+server.get("/ideias/:id", function(req,res) {
     const id = req.params.id;
     const query = `
-        DELETE ideas where ideas.id = ${id};
+        DELETE FROM ideas where ideas.id = ${id};
     `;
   
     db.run(query, function(err) {

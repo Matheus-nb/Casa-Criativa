@@ -14,7 +14,6 @@ db.serialize(function() {
         );
     `)
 
-    
     //const query = `
     //    INSERT INTO ideas(
     //        image,
