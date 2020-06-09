@@ -39,7 +39,7 @@ To clone and run this application, you'll need [Git](https://gitforwindows.org/)
 ```bash
 
 # Go into the Casa-Criativa path
-$ cd NLW
+$ cd Casa-Criativa
 
 # Install dependencies
 $ npm install
